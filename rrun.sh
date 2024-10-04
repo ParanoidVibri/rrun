@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CONFIG_FILE="rrun.conf"
+CONFIG_FILE="/etc/rrun.conf"
 
 if [ ! -f "$CONFIG_FILE" ]; then
     echo "Error: Config file $CONFIG_FILE not found!"
